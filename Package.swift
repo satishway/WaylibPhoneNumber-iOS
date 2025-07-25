@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "libPhoneNumber",
+    name: "libPhoneNumber_iOS",
     products: [
         .library(
-            name: "libPhoneNumber",
-            targets: ["libPhoneNumber"]
+            name: "libPhoneNumber_iOS",
+            targets: ["libPhoneNumber_iOS"]
         )
     ],
     targets: [
         .target(
-            name: "libPhoneNumber",
+            name: "libPhoneNumber_iOS",
             path: "libPhoneNumber",
             exclude: ["GeneratePhoneNumberHeader.sh", "Info.plist"],
             publicHeadersPath: ".",
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .testTarget(
             name: "libPhoneNumberTests",
-            dependencies: ["libPhoneNumber"],
+            dependencies: ["libPhoneNumber_iOS"],
             path: "libPhoneNumberTests",
             sources: [
                 "NBAsYouTypeFormatterTest.m",
