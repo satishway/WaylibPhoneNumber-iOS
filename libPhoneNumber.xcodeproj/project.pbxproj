@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -64,6 +64,7 @@
 		94C9AF0F24B3AAF900469F54 /* NBPhoneNumberOfflineGeocoderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C9AF0E24B3AAF900469F54 /* NBPhoneNumberOfflineGeocoderTest.m */; };
 		94C9AF6124B3E24900469F54 /* NBGeocoderMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B9B012497ED79007E17B5 /* NBGeocoderMetadataHelper.m */; };
 		A81D6A2B1BECC44600F68F34 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D6A281BECC43A00F68F34 /* NBPhoneNumberDefines.m */; };
+		B22A79942E33B76B008DE5F1 /* NBGeneratedPhoneNumberMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A79932E33B76B008DE5F1 /* NBGeneratedPhoneNumberMetaData.m */; };
 		CA55ED89296F51E0005E98A1 /* TestingSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA55ED88296F51E0005E98A1 /* TestingSource.bundle */; };
 		CAA5E78D29F84B7B00550AA7 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA5E78C29F84B7B00550AA7 /* Contacts.framework */; };
 /* End PBXBuildFile section */
@@ -179,6 +180,7 @@
 		94C9AF0E24B3AAF900469F54 /* NBPhoneNumberOfflineGeocoderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberOfflineGeocoderTest.m; sourceTree = "<group>"; };
 		94C9AF5924B3C40C00469F54 /* libPhoneNumberGeocoding.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = libPhoneNumberGeocoding.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A81D6A281BECC43A00F68F34 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		B22A79932E33B76B008DE5F1 /* NBGeneratedPhoneNumberMetaData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBGeneratedPhoneNumberMetaData.m; sourceTree = "<group>"; };
 		CA2A40602966543D00DBCD69 /* NBTestingMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTestingMetaData.h; sourceTree = "<group>"; };
 		CA2A4061296654E500DBCD69 /* NBTestingMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTestingMetaData.h; sourceTree = "<group>"; };
 		CA55ED88296F51E0005E98A1 /* TestingSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestingSource.bundle; sourceTree = "<group>"; };
@@ -459,6 +461,7 @@
 				FD12C2681A87401B00B53856 /* NBMetadataHelper.h */,
 				FD12C2691A87401B00B53856 /* NBMetadataHelper.m */,
 				8BB73AA71E7C9C6700B0691B /* NBGeneratedPhoneNumberMetaData.h */,
+				B22A79932E33B76B008DE5F1 /* NBGeneratedPhoneNumberMetaData.m */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -772,6 +775,7 @@
 				0F28709C1FCF8F13006230BF /* NBRegExMatcher.m in Sources */,
 				34ACBBAE1B7123090064B3BD /* NBPhoneNumberUtil.m in Sources */,
 				34ACBBAB1B7122FD0064B3BD /* NBNumberFormat.m in Sources */,
+				B22A79942E33B76B008DE5F1 /* NBGeneratedPhoneNumberMetaData.m in Sources */,
 				34ACBBAD1B7123020064B3BD /* NBPhoneMetaData.m in Sources */,
 				34ACBBB01B71230E0064B3BD /* NBAsYouTypeFormatter.m in Sources */,
 				944B9B062497ED79007E17B5 /* NBGeocoderMetadataHelper.m in Sources */,

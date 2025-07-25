@@ -17,8 +17,8 @@ set -eu
 
 cd "${BASH_SOURCE%/*}" || exit
 
-readonly CORE_METADATA_HEADER="../libPhoneNumber/NBGeneratedPhoneNumberMetaData.h"
-readonly SHORT_NUMBER_METADATA_HEADER="../libPhoneNumberShortNumber/NBGeneratedShortNumberMetaData.h"
+readonly CORE_METADATA_HEADER="../libPhoneNumber/NBGeneratedPhoneNumberMetaData.m"
+readonly SHORT_NUMBER_METADATA_HEADER="../libPhoneNumberShortNumber/NBGeneratedShortNumberMetaData.m"
 
 TEMPDIR=$(mktemp -d)
 gzip -c "../generatedJSON/PhoneNumberMetaData.json" > "$TEMPDIR/PhoneNumberMetaData.zip"
